@@ -1,0 +1,169 @@
+
+/* Reset e layout base */
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #2d2d2d;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover, nav a.active {
+  border-bottom: 2px solid #c5a36d;
+}
+
+.container {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background: #2b2b2b;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+main {
+  width: 90%;
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+.intro h2,
+.blog h2,
+.contato h2,
+.post h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3c2e1f;
+  border-bottom: 2px solid #c5a36d;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.intro p,
+.sobre p,
+.contato p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #888;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Sobre mim */
+.perfil {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+}
+
+.sobre {
+  text-align: center;
+}
+
+.cargo {
+  font-style: italic;
+  color: #555;
+  margin: 0;
+}
+
+/* Blog */
+.posts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.posts article {
+  width: 30%;
+  background: #f9f9f9;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.posts article img {
+  width: 100%;
+  height: auto;
+}
+
+.posts article h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.posts article time {
+  font-size: 12px;
+  color: #999;
+}
+
+/* Contato */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background: #3c2e1f;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.post img {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.post time {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin: 10px 0 20px;
+}
